@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/web-app/4.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/web-app/4.0 http://xmlns.jcp.org/xml/web-app/4.0/web-app.xsd">
+
+    <display-name>Hola Mundo con Base de Datos</display-name>
+
+    <servlet>
+        <servlet-name>HolaMundoServlet</servlet-name>
+        <servlet-class>com.example.app.HolaMundoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HolaMundoServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
